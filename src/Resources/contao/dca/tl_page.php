@@ -7,7 +7,6 @@
  * @author     Stefan Heimes <heimes@men-at-work.de>
  */
 
-
 /**
  * Palettes
  */
