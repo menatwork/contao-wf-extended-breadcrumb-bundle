@@ -10,7 +10,7 @@
 /**
  * Back end modules
  */
-$GLOBALS['TL_LANG']['MOD']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_extendedBreadcrumb'] = array(
+$GLOBALS['TL_LANG']['MOD']['wf_extendedBreadcrumb'] = array(
     'Erweiterter Navigationspfad',
     'Erzeugt einen erweiterten Navigationspfad.'
 );
@@ -18,7 +18,7 @@ $GLOBALS['TL_LANG']['MOD']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_exten
 /**
  * Front end modules
  */
-$GLOBALS['TL_LANG']['FMD']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_extendedBreadcrumb'] = array(
+$GLOBALS['TL_LANG']['FMD']['wf_extendedBreadcrumb'] = array(
     'Erweiterter Navigationspfad',
     'Erzeugt einen erweiterten Navigationspfad.'
 );
