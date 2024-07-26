@@ -7,5 +7,5 @@
  * @author     Stefan Heimes <heimes@men-at-work.de>
  */
 
-$GLOBALS['FE_MOD']['navigationMenu'][MenAtWork\WfExtendedBreadcrumbBundle\Module\ExtendedBreadcrumb::class]
+$GLOBALS['FE_MOD']['navigationMenu']['wf_extendedBreadcrumb']
     = MenAtWork\WfExtendedBreadcrumbBundle\Module\ExtendedBreadcrumb::class;
