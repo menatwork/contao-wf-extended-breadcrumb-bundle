@@ -1,5 +1,5 @@
 {
-    "name": "menatwork/wf_extendedbreadcrumb",
+    "name": "menatwork/contao-wf-extended-breadcrumb-bundle",
     "description": "Extended breadcrumb navigation",
     "keywords": [
         "breadcrumb",
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "MenAtWork\\WfExtendedBreadcrumbBundle": "src"
+            "MenAtWork\\WfExtendedBreadcrumbBundle\\": "src"
         }
     },
     "replace": {
