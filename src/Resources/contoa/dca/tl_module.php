@@ -95,7 +95,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_hideOnFirstLeve
 );
 
 // add palettes to tl_module
-$GLOBALS['TL_DCA']['tl_module']['palettes']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_extendedBreadcrumb']
+$GLOBALS['TL_DCA']['tl_module']['palettes']['wf_extendedBreadcrumb']
     = '{title_legend},name,headline,type;{wf_extendedBreadcrumb_config},wf_extendedBreadcrumb_delimiter,wf_extendedBreadcrumb_cutlength,wf_extendedBreadcrumb_placeholder,wf_extendedBreadcrumb_keywords,wf_extendedBreadcrumb_hidden,wf_extendedBreadcrumb_hideOnFirstLevel,wf_extendedBreadcrumb_onlytitle;{wf_extendedBreadcrumb_startpage},wf_extendedBreadcrumb_defineRoot;{protected_legend},protected;{expert_legend},align,space,cssID';
 
 // extend selector

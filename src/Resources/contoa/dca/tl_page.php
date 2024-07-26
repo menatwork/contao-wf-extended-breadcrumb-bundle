@@ -26,9 +26,9 @@ foreach ($GLOBALS['TL_DCA']['tl_page']['palettes'] as $key => $row) {
 /**
  * Fields
  */
-$GLOBALS['TL_DCA']['tl_page']['fields']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_extendedBreadcrumb'] = array
+$GLOBALS['TL_DCA']['tl_page']['fields']['wf_extendedBreadcrumb'] = array
 (
-    'label'     => &$GLOBALS['TL_LANG']['tl_page']['MenAtWork\WfExtendedBreadcrumbBundle\Module\wf_extendedBreadcrumb'],
+    'label'     => &$GLOBALS['TL_LANG']['tl_page']['wf_extendedBreadcrumb'],
     'exclude'   => true,
     'inputType' => 'checkbox',
     'eval'      => array('tl_class' => 'w50'),
