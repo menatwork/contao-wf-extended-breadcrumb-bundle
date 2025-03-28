@@ -16,7 +16,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_rootpage'] = ar
     'inputType' => 'pageTree',
     'search'    => false,
     'eval'      => array('fieldType' => 'radio', 'tl_class' => 'clr'),
-    'sql'       => 'varchar(64) NOT NULL default ""'
+    'sql'       => 'varchar(64) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_defineRoot'] = array
@@ -24,7 +24,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_defineRoot'] = 
     'label'     => &$GLOBALS['TL_LANG']['tl_module']['wf_extendedBreadcrumb_defineRoot'],
     'inputType' => 'checkbox',
     'eval'      => array('submitOnChange' => true, 'tl_class' => 'clr w50'),
-    'sql'       => 'char(1) NOT NULL default ""'
+    'sql'       => 'varchar(1) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_delimiter'] = array
@@ -34,7 +34,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_delimiter'] = a
     'inputType' => 'text',
     'search'    => false,
     'eval'      => array('mandatory' => true, 'maxlength' => 64, 'tl_class' => 'w50'),
-    'sql'       => 'char(64) NOT NULL default ""'
+    'sql'       => 'varchar(64) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_cutlength'] = array
@@ -54,7 +54,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_placeholder'] =
     'inputType' => 'text',
     'search'    => false,
     'eval'      => array('maxlength' => 5, 'tl_class' => 'w50'),
-    'sql'       => 'char(64) NOT NULL default ""'
+    'sql'       => 'varchar(64) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_keywords'] = array
@@ -73,7 +73,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_hidden'] = arra
     'exclude'   => true,
     'search'    => false,
     'eval'      => array('tl_class' => 'clr'),
-    'sql'       => 'char(1) NOT NULL default ""'
+    'sql'       => 'varchar(1) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_onlytitle'] = array
@@ -82,7 +82,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_onlytitle'] = a
     'inputType' => 'checkbox',
     'exclude'   => true,
     'search'    => false,
-    'sql'       => 'char(1) NOT NULL default ""'
+    'sql'       => 'varchar(1) NOT NULL default \'\''
 );
 
 $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_hideOnFirstLevel'] = array
@@ -91,7 +91,7 @@ $GLOBALS['TL_DCA']['tl_module']['fields']['wf_extendedBreadcrumb_hideOnFirstLeve
     'inputType' => 'checkbox',
     'exclude'   => true,
     'search'    => false,
-    'sql'       => 'char(1) NOT NULL default ""'
+    'sql'       => 'varchar(1) NOT NULL default \'\''
 );
 
 // add palettes to tl_module
